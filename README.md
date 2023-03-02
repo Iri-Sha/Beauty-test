@@ -1,4 +1,4 @@
-#Beauty-test
+# Beauty-test
 ## Верстка сайта BEAUTY по макету в Figma
 
 В верстке данного макета использован SCSS.

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty</title>
+</head>
+<body class="page">
+    <header class="header">
+        <div class="header menu-links">
+          <a class="header menu-link" href="#" title="Доставка">Доставка</a>
+          <a class="header menu-link" href="#" title="Оплата">Оплата</a>
+          <a class="header menu-link" href="#" title="Отзывы">Отзывы</a>
+          <a class="header menu-link" href="#" title="Вопрос - ответ">Вопрос&nbsp-&nbspответ</a>
+          <a class="header menu-link" href="#" title="Контакты">Контакты</a>
+        </div>
+    </header>
+    
+    <main class="content">
+        <section class="main-menu">
+            <div class="contact">
+                <div class="logo">
+                    <div class="logo-image"></div>
+                    <p class="logo-name">BEAUTY</p>
+                </div>
+                <div class="connection">
+                    <p class="telefone">8 (812) 123-45-67</p>
+                    <button class="backcall" type="button">Обратный звонок</button>
+                </div>
+            </div>
+            <div class="menu-links">
+                <a class="main-menu menu-link" href="#" title="Доставка">Парикмахерская</a>
+                <a class="main-menu menu-link" href="#" title="Доставка">Барбершоп</a>
+                <a class="main-menu menu-link" href="#" title="Доставка">Маникюр</a>
+                <a class="main-menu menu-link" href="#" title="Доставка">Педикюр</a>
+                <a class="main-menu menu-link" href="#" title="Доставка">Массаж</a>
+                <a class="main-menu menu-link" href="#" title="Доставка">Мебель</a>
+            </div>
+        </section>
+
+        <section class="sale">
+            <div class="sale-info">
+                <h1 class="sale-title">Супер кресло</h1>
+                <p class="sale-text">Текст акции всегда отражает суть, а не просто болтовню, поэтому внимательнее</p>
+                <button class="sale-button" type="button">Подробнее</button>
+            </div>
+            <div class="sale-images">
+                <div class="sale-circlebig"></div>
+                <div class="sale-circlesmall"></div>
+                <img class="sale-image" src="<%=require('./image/SBS-923097.png')%>">
+            </div>
+        </section>
+
+        <section class="bgc">
+            <div class="bgc__conteiner">
+                <h2 class="bgc__title">Специальные предложения</h2>
+                <ul class="bgc__cards">
+                    <li class="card">
+                        <img class="card__image" src="<%=require('./image/Rectangle_4.png')%>" alt="Парикмахерское кресло">
+                        <h2 class="card__title">Парикмахерское кресло «Норм» гидравлическое</h2>
+                        <p class="card__price">9 900 &#8381;</p>
+                        <button class="card__button" type="submit">Купить</button>
+                    </li>
+                    <li class="card">
+                        <img class="card__image" src="<%=require('./image/Rectangle_4.png')%>" alt="Парикмахерское кресло">
+                        <h2 class="card__title">Парикмахерское кресло «Норм» гидравлическое</h2>
+                        <p class="card__price">9 900 &#8381;</p>
+                        <button class="card__button" type="submit">Купить</button>
+                    </li>
+                    <li class="card">
+                        <img class="card__image" src="<%=require('./image/Rectangle_4.png')%>" alt="Парикмахерское кресло">
+                        <h2 class="card__title">Парикмахерское кресло «Норм» гидравлическое</h2>
+                        <p class="card__price">9 900 &#8381;</p>
+                        <button class="card__button" type="submit">Купить</button>
+                    </li>
+                    <li class="card">
+                        <img class="card__image" src="<%=require('./image/Rectangle_4.png')%>" alt="Парикмахерское кресло">
+                        <h2 class="card__title">Парикмахерское кресло «Норм» гидравлическое</h2>
+                        <p class="card__price">9 900 &#8381;</p>
+                        <button class="card__button" type="submit">Купить</button>
+                    </li>
+                </ul>
+                <div class="bgc__blocks">
+                    <div class="bgc__block">
+                        <div class="bgc__info">
+                            <h2 class="bgc__info-title">Получайте бонусы и подарки</h2>
+                            <p class="bgc__info-text">Каждый месяц разыгрываем 10&nbsp000 рублей для наших клиентов</p>
+                            <input class="bgc__input" type="email" placeholder="Введите e-mail"></input>
+                        </div>
+                    <img class="bgc__image" src="<%=require('./image/envelope.svg')%>" alt="Картинка конверта">
+                    </div>
+                    <div class="bgc__block">
+                        <div class="bgc__info">
+                            <h2 class="bgc__info-title">Заходите к нам</h2>
+                            <p class="bgc__info-text">Более 300 магазинов<br>по всей России</p>
+                            <button class="bgc__button" type="button">Карта магазинов</button>
+                        </div>
+                        <img class="bgc__image" src="<%=require('./image/x36_8.svg')%>" alt="Картинка машинки">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-line">
+            <div class="icons">
+                <a href="https://youtube.com" target="_blank" rel="noreferrer"><img class="icon" src="<%=require('./image/YT.svg')%>" alt="Youtube"></a>
+                <a href="https://vk.com" target="_blank" rel="noreferrer"><img class="icon" src="<%=require('./image/Vk.svg')%>" alt="VK"></a>
+                <a href="https://facebook.com" target="_blank" rel="noreferrer"><img class="icon" src="<%=require('./image/facebook-logo.svg')%>" alt="Facebook"></a>
+                <a href="https://instagram.com" target="_blank" rel="noreferrer"><img class="icon" src="<%=require('./image/instagram.svg')%>" alt="Instagram"></a>
+            </div>
+            <p class="address">198555, Невский пр. 140, офис 140</p>
+            <div class="connection">
+                <p class="telefone">8 (812) 123-45-67</p>
+                <button class="backcall" type="button">Обратный звонок</button>
+            </div>
+        </div>
+        <div class="footer-texts">
+            <p class="footer-text">Лучший магазин (с) 2019 Все права защищены. Интернет-магазин оборудования для салонов красоты</p>
+            <p class="footer-text">Политика конфиденциальности</p>
+        </div>
+    </footer>
+</body>
+</html>

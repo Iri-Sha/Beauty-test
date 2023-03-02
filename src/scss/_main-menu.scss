@@ -1,0 +1,75 @@
+$grey: #EFEFEF;
+$bg: #E5E5E5;
+$green: #66C05D;
+$dark: #333333;
+$black: #000000;
+$wt: #FFFFFF;
+
+.main-menu {
+    padding: 20px 0 30px;
+
+    & .menu-links {
+        margin-top: 30px;
+    }
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid $grey;
+    padding-bottom: 20px;
+
+    @media screen and (max-width: 650px) {
+        flex-direction: column;
+    }
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-image {
+    background-image: url(./image/logo.svg);
+    width: 80px;
+    height: 80px;
+}
+
+.logo-name {
+    color: $green;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 0 0 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.connection {
+    display: flex;
+    align-self: center;
+}
+
+.telefone {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $black;
+    margin: 0 40px 0 0;
+    margin-block: 0;
+    display: flex;
+    align-items: center
+}
+
+.backcall {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: $black;
+    background: #FFFFFF;
+    border: 2px solid $green;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+}

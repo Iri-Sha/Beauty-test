@@ -1,0 +1,67 @@
+@import "_normalaize";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import "_header";
+@import "_main-menu";
+@import "_sale";
+@import "_bgc";
+@import "_card";
+@import "_footer";
+
+$grey: #EFEFEF;
+$bg: #E5E5E5;
+$green: #66C05D;
+$dark: #333333;
+$black: #000000;
+$wt: #FFFFFF;
+
+.page {
+    max-width: 1920px;
+    background-color: $grey;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: $black;
+    display: block;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+.menu-links {
+    margin: 0 auto;
+    text-align: center;
+
+    @media screen and (max-width: 700px) {
+        width: 80%;
+        line-height: 25px;
+    }
+}
+
+.menu-link{
+    text-decoration: none;
+    padding: 0;
+
+    @media screen and (max-width: 650px) {
+        line-height: 25px;
+    }
+}
+
+.menu-link:last-child {
+    margin-right: 0;
+}
+
+.menu-link:hover {
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.content {
+    background-color: $wt;
+    width: 100%;
+
+    .menu-link{
+        color: $black;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 400;
+        margin-right: 40px;
+    }
+}

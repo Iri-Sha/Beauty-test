@@ -5,4 +5,4 @@
 
 Верстка макета с аддаптивом.
 
-[Ссылка на макет в Figma] (https://www.figma.com/file/ZKD6gqiwogfiSCFQQeGfkJ)
+[Ссылка на макет в Figma](https://www.figma.com/file/ZKD6gqiwogfiSCFQQeGfkJ)
